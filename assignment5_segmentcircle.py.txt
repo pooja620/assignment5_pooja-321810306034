@@ -1,0 +1,11 @@
+from math import pi 
+def sectorarea():
+    pi
+    radius=float(input('radius of cirle:'))
+    angle=float(input('angle measure:'))
+    if angle>=360:
+        print("angle is not possible")
+        return
+    area=(pi*radius**2)*(angle/360)
+    print("sector area:",area)
+    sectorarea()

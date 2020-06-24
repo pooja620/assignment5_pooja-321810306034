@@ -1,0 +1,5 @@
+import random
+l1=[300,2,5,8,70,"hai","hello"]
+print("original list:",l1)
+random.shuffle(l1)
+print("list after shuffle:",l1)
